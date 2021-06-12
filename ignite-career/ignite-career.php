@@ -28,6 +28,7 @@
 </tbody>
 
 </table>
+
 <form action="get_data.php" method="POST">
     <input type="hidden" value="get_download" name="getData">
     <button type="submit">Download CSV</button>
