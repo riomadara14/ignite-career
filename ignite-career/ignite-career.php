@@ -39,16 +39,11 @@
 <script>
 
 $.ajax({
-
     url:'get_data.php',
     type:'POST',
     data: {getData:"get_data"},
-
-    success:function(data){
-
-        $("#display_data").html(data); 
-
-    }
+}).done(data=>{
+    $("#display_data").html(data);  
 });
 
 
